@@ -1,0 +1,43 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.anhao {
+  color: red;
+}
+.anhaoIn {
+  border:1px solid #aaa;
+  border-radius: 5%;
+  height: 80rpx;
+  padding-left:10rpx;
+}
+
+.submit{
+  margin-top: 100rpx;
+  color: BLUE;
+  background-color: aquamarine;
+  height: 80rpx;
+  line-height: 60rpx;
+  letter-spacing: 12rpx;
+}
+/* .demo{
+  display: flex;
+} */
