@@ -1,0 +1,31 @@
+<!--pages/test2/test2.wxml-->
+<!-- <text>pages/test2/test2.wxml</text> -->
+<view class="container">
+  <form bindsubmit="submit">
+    <view>
+      <text>姓名：</text>
+      <input name="userName" value="小明"></input>
+    </view>
+    <view>
+      <text>性别：</text>
+      <radio-group name="gender">
+        <radio value="0" checked>男</radio>
+        <radio value="1" >女</radio>
+      </radio-group>
+    </view>
+    <view>
+    <text>兴趣：</text>
+     <checkbox-group name="interests">
+      <checkbox value="1" checked>唱歌</checkbox>
+      <checkbox value="2" >跳舞</checkbox>
+      <checkbox value="3" checked>读书</checkbox>
+      <checkbox value="4" checked>旅游</checkbox>
+     </checkbox-group>
+    </view>
+    <view>
+      <text class="introductionText">个人简介：</text>
+      <textarea name="introduction"value="测试用"></textarea>
+    </view>
+    <button class="submit" form-type="submit">确定</button>
+  </form>
+</view>

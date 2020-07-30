@@ -1,4 +1,7 @@
 /**index.wxss**/
+.weui-form__tips{
+  margin-top:128rpx;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -32,10 +35,8 @@
 
 .submit{
   margin-top: 100rpx;
-  color: BLUE;
-  background-color: aquamarine;
   height: 80rpx;
-  line-height: 60rpx;
+  line-height: 50rpx;
   letter-spacing: 12rpx;
 }
 /* .demo{

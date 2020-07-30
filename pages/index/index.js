@@ -59,24 +59,37 @@ Page({
   //   console.log(e.detail);
   // },
   loginForm:function(e){
-    if(e.detail.value.anhao=='老头子黑'){
+    if(e.detail.value.anhao=='1004'){
       // wx.showToast({
       //   title: '回答正确',
       //   icon: 'none',
       //   duration: 1500
       // })
-      wx.showModal({
-        title: '提示',
-        content: '是否跳转？',
-        success: function (res) {
-          if (res.confirm) {//这里是点击了确定以后
-            console.log('用户点击确定')
-            wx.redirectTo({url:"../test/test"}); 
-          } else {//这里是点击了取消以后
-            console.log('用户点击取消')
-          }
-        }
-      })
+      // wx.showModal({
+      //   title: '提示',
+      //   content: '是否跳转？',
+      //   success: function (res) {
+      //     if (res.confirm) {//这里是点击了确定以后
+      //       console.log('用户点击确定')
+      //       wx.redirectTo({url:"../test2/test2"}); 
+      //     } else {//这里是点击了取消以后
+      //       console.log('用户点击取消')
+      //     }
+      //   }
+      // })
+      // 有返回跳转
+    //   wx.navigateTo({
+    //     url: '/pages/helloworld/helloworld'
+    //  })
+     wx.redirectTo({
+      url: '/pages/helloworld2/helloworld2'
+     })
+//     wx.reLaunch({
+//       url: '/pages/helloworld/helloworld'
+// })
+// wx.switchTab({
+//   url:  '/pages/logs/logs'
+// })
     }else{
       wx.showToast({
         title: '暗号错误！',

@@ -1,0 +1,10 @@
+/* pages/helloworld/helloworld.wxss */
+.nearCard-fl{
+  padding: 30rpx;
+}
+image{
+  width: 690rpx;
+  box-shadow: 0rpx 10rpx 50rpx 10rpx #5555;
+  border-radius: 50rpx;
+
+}

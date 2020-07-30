@@ -1,0 +1,20 @@
+<!--pages/helloworld/helloworld.wxml-->
+<!-- <text class="ttl">一直在</text> -->
+<view class='container'>
+  <!-- 订单列表 -->
+  <block wx:for-items="{{carInfoData}}">
+    <view class='card  b-shadow' bindtap='toggleBtn' id="{{item.id}}">
+      <view class='nearCard-fl'>
+        <image src='{{item.imgurl}}'></image>
+      </view>
+      <!-- <view class='nearCard-fr'>
+        <view>姓名：
+          <text class='c-green'>{{item.name}}</text>
+        </view>
+        <view>日期：
+          <text class='c-green'>{{item.date}}</text>
+        </view>
+      </view> -->
+    </view>
+  </block>
+</view>

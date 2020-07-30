@@ -1,14 +1,61 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/test2/test2",
+    "pages/helloworld/helloworld",
+    "pages/badge/badge",
+    "pages/helloworld2/helloworld2",
+    "pages/letter/letter",
+    "pages/video/video",
+    "pages/navbar/navbar"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
+  "tabBar": {
+    "color": "#a9b7b7", 
+    "selectedColor": "#6fbaf4", 
+    "borderStyle":"black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "selectedIconPath": "images/home6.png", 
+        "iconPath": "images/home4.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/yaoqing1.png", 
+        "iconPath": "images/yaoqing.png",
+        "pagePath": "pages/letter/letter",
+        "text": "邀请函"
+      },
+      {
+        "selectedIconPath": "images/xiangce6.png", 
+        "iconPath": "images/xiangce4.png",
+        "pagePath": "pages/navbar/navbar",
+        "text": "相册"
+      },
+      {
+        "selectedIconPath": "images/shipin1.png", 
+        "iconPath": "images/shipin.png",
+        "pagePath": "pages/video/video",
+        "text": "视频"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 100000
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "debug": true,
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

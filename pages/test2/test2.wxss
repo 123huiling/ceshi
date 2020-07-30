@@ -1,0 +1,19 @@
+/* pages/test2/test2.wxss */
+@import "../index/index.wxss";
+.container view{
+  display: flex;
+  padding-left: 40rpx;
+  margin-bottom: 40rpx;
+
+}
+radio-group radio{margin-right: 50rpx;}
+checkbox-group checkbox{
+  margin-right: 20rpx;
+}
+.introductionText{
+  width: 30%;
+}
+input{
+  border-bottom:1px solid #C1C1C1;
+  width:600rpx;
+}

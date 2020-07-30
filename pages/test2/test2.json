@@ -1,0 +1,11 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#c8154d",
+  "navigationBarTextStyle":"white",
+  "navigationBarTitleText": "测试",
+  "backgroundColor":"#00ced1",
+  "backgroundTextStyle":"light",
+  "enablePullDownRefresh":true,
+  "onReachBottomDistance":10,
+  "disableScroll":true
+}

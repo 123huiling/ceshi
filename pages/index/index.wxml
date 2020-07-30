@@ -1,22 +1,20 @@
 <!--index.wxml-->
- <form bindsubmit='loginForm'>
-  <view class="container">
-    <!-- <view class="userinfo">
-      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-      <block wx:else>
-        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      </block>
-    </view> -->
-    <!-- <view class="usermotto">
-      <text class="user-motto">{{motto}}</text>
-    </view> -->
-    <view class="demo">
-      <text class="anhao">请输入暗号:</text>
-      <input id="anhao" name="anhao" class="anhaoIn" type="text"/>
-    </view>
-    <view class="demo">
-      <button class="submit" form-type="submit">确定</button>
-    </view>
-  </view>
-</form>
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="weui-form">
+		<view class="weui-form__text-area">
+			<h2 class="weui-form__title">感恩</h2>
+      <view class="weui-form__desc">种一棵树</view>
+      <view class="weui-form__desc">最好的时间是十年前</view>
+      <view class="weui-form__desc">其次是现在</view>
+		</view>
+		<view class="weui-form__tips-area">
+			<view class="weui-form__tips">
+                -dargi
+			</view>
+		</view>
+		<!-- <view class="weui-form__opr-area">
+			<a class="weui-btn weui-btn_primary">进入首页</a>
+		</view> -->
+	</view>
+</view>
+
